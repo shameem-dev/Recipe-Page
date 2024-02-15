@@ -1,3 +1,3 @@
 This is my frontend mentor Project with basics of web.
 
-this included CSS 
+this included HTML & CSS 
