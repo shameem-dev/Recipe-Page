@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+    --Nutmeg: hsl(14, 45%, 36%);
+    --Dark: hsl(332, 51%, 32%);
+    --White: hsl(0, 0%, 100%);
+    --RoseWhite: hsl(330, 100%, 98%);
+    --Eggshell: hsl(30, 54%, 90%);
+    --Light-Grey: hsl(30, 18%, 87%);
+    --WengeBrown: hsl(30, 10%, 34%);
+    --dark-charcoal: hsl(24, 5%, 18%);
+
+
+}
+body {
+    background-color: var(--Eggshell);
+}
+
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+.attribution a {
+    color: hsl(228, 45%, 44%);
+    text-decoration: none;
+}
+
+.main-container {
+    max-width: 60rem;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 20px;
+    margin: 5rem auto 9.6rem;
+}
+.main-container .img-title img{
+    width: 100%;
+    padding: 2rem;
+    border-radius: 3rem;
+}
+.header-section {
+    color: var(--dark-charcoal);
+    font-family: "Young Serif", Times, serif;
+    font-weight: 400;
+
+}
+.header-section h1 {
+    padding-left: 2rem;
+    line-height: 1.1;
+    font-size: 3rem;
+
+}
+.header-section p {
+    padding: 15px 2rem 0;
+    color: var(--WengeBrown);
+    font-family: "Outfit", Arial, sans-serif;
+}
+.prepare-time {
+    background-color: var(--RoseWhite);
+    margin: 1rem 2rem;
+    border-radius: 8px;
+    font-family: "Outfit", Arial, sans-serif;
+    padding: 1rem;
+}
+.prepare-time h3 {
+    color: var(--Dark);
+    padding: 0 1rem 1rem;
+}
+.prepare-time ul  {
+    padding-left: 2.5rem;
+}
+.prepare-time ul li {
+    padding:6px 0.5rem ;
+    color: var(--WengeBrown);
+
+}
+.prepare-time ul li::marker {
+    color: var(--Nutmeg);
+}
+
+.prepare-time ul li  span {
+    font-weight: 700;
+
+}
+.ingredient-item {
+    padding: 2.5rem;
+}
+.sec-heading {
+    font-family:"Young Serif", Times, serif;
+    color: var(--Nutmeg);
+    padding-bottom: 1rem;
+
+}
+.ingredient-item ul {
+    margin-left: 1rem;
+    font-family: "Outfit", Arial, sans-serif;
+}
+.ingredient-item ul li {
+    padding:1rem  1rem;
+    color: var(--WengeBrown);
+    
+}
+.ingredient-item ul li::marker {
+    color: var(--Nutmeg);
+}
+.instruction {
+    padding: 2.5rem;
+}
+.instruction ol li::marker {
+    color: var(--Nutmeg);
+    font-weight: 600;
+    font-family: "Outfit", Arial, sans-serif;
+} 
+.instruction ol {
+    padding-left: 1rem;
+}
+
+.instruction ol li{
+    font-family: "Outfit", Arial, sans-serif;
+    padding: 1rem;
+    color: var(--WengeBrown);
+
+}
+.instruction ol li span {
+    font-weight: 600;
+}
+hr {
+    margin-top: 1rem;
+}
+.nutrition-section {
+    padding-left: 2.5rem;
+
+}
+.nutrition-section p {
+    color: var(--WengeBrown);
+    font-size: 16px;
+    font-family: "Outfit", Arial, sans-serif;
+}
+.item-grams {
+    display: grid;
+    grid-template-columns: auto auto;
+    font-family: "Outfit", Arial, sans-serif;
+} 
+.item-grams .header-nutrition, .item-grams .data-nutrition {
+    
+    padding: 2rem;
+
+
+}
+.item-grams .header-nutrition:last-child, .item-grams .data-nutrition:last-child {
+    border-bottom: none;
+}
+.item-grams .header-nutrition {
+    color: var(--WengeBrown);
+    border-bottom: 1px solid var(--Light-Grey);
+    font-weight: 700;
+}
+.item-grams .data-nutrition {
+    color: var(--Nutmeg);
+    border-bottom: 1px solid var(--Light-Grey);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
